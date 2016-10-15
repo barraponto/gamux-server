@@ -19,6 +19,7 @@
     "test": "npm run jshint && npm run mocha",
     "jshint": "jshint src/. test/. --config",
     "start": "node src/",
+    "debug": "node --inspect src/",
     "mocha": "mocha test/ --recursive"
   },
   "dependencies": {
@@ -42,6 +43,7 @@
     "passport-google-oauth20": "^1.0.0",
     "passport-google-token": "^0.1.2",
     "serve-favicon": "^2.3.0",
+    "underscore": "^1.8.3",
     "winston": "^2.2.0"
   },
   "devDependencies": {
